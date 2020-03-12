@@ -1,0 +1,39 @@
+html, body {
+    background-color: #ddb;
+}
+
+.roll-form-div {
+    text-align: center;
+    margin: auto;
+}
+
+.roll-form-span {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 12px;
+    background-color: #886;
+    display: inline-block;
+}
+
+.w3 {
+    width: calc(100%/3 - 40px);
+}
+
+.w1 {
+    width: calc(100% - 40px);
+}
+
+#chart-span {
+    height: calc(100vh - 245px);
+}
+
+input {
+    width: calc(100% - 30px);
+}
+
+
+#canvas-home {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}

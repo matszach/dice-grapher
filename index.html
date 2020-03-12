@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/lib/gmt.js"></script>
+        <script src="js/lib/jquery.js"></script>
+        <script src="js/src/chart.js"></script>
+        <script src="js/src/roll.js"></script>
+        <script src="js/src/calc.js"></script>
+        <script src="js/src/main.js"></script>
+    </head>
+    
+    <body>
+        <div class='roll-form-div'>
+            <span class='roll-form-span w3'>
+                <label>RULE:</label>
+                <input type="text" id="rule-input"/>
+            </span>
+            <span class='roll-form-span w3'>
+                <label>NUMBER OF ROLLS:</label>
+                <input type="text" id="nof-rolls-input" value="1000000"/>
+            </span>
+            <span class='roll-form-span w3'>
+                <label style='color: transparent'>XXXXXXXXXX</label>
+                <input type="button" id="submit-button" value="ROLL" onclick="calculate()"/>
+            </span>
+        </div>
+        <div class='roll-form-div'>
+            <span class='roll-form-span w3'>
+                <label>MIN OUTCOME:</label>
+                <label id='min-outcome-p'>?</label>
+            </span>
+            <span class='roll-form-span w3'>
+                <label>MAX OUTCOME:</label>
+                <label id='max-outcome-p'>?</label>
+            </span>
+            <span class='roll-form-span w3'>
+                <label>AVG OUTCOME:</label>
+                <label id='avg-outcome-p'>?</label>
+            </span>
+        </div>
+        <div class='roll-form-div'>
+            <span class='roll-form-span w1'>
+                <label>ROLLS:</label>
+                <label id='rolls-p'>?</label>
+            </span>
+        </div>
+        <div class='roll-form-div'>
+            <span class='roll-form-span w1' id='chart-span'>
+                <div id='canvas-home'>
+                </div>
+            </span>
+        </div>
+    
+    </body>
+
+</html>

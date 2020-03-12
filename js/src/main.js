@@ -1,0 +1,4 @@
+$(window).ready(() => {
+    ChartPainter.init();
+    
+});
